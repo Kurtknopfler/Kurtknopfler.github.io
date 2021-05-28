@@ -3,7 +3,7 @@
             var gitalk = new Gitalk({
             language:'zh-CN',
             id: '04ccd0e731e74dd793efeb7bc90cd5e3',
-            repo: 'blog-comment',
+            repo: 'blog-comments',
             owner: 'kurtknopfler',
             clientID: '3f6047e330c296d2a866',
             clientSecret: '54823ee12fe45614edd00349d0348ea68870d3a8',
@@ -56,7 +56,7 @@
                 }
                 $('.justified-gallery').justifiedGallery();
             }
-        });</script><!--!--><!--!--><!--!--><script src="/js/main.js" defer></script><script>$.getScript('/js/comment-issue-data.js',function(){loadIssueData('3f6047e330c296d2a866','54823ee12fe45614edd00349d0348ea68870d3a8','kurtknopfler','blog-comment',false);})</script><div class="searchbox"><div class="searchbox-container"><div class="searchbox-header"><div class="searchbox-input-container"><input class="searchbox-input" type="text" placeholder="Type something..."></div><a class="searchbox-close" href="javascript:;">×</a></div><div class="searchbox-body"></div></div></div><script src="/js/insight.js" defer></script><script>document.addEventListener('DOMContentLoaded', function () {
+        });</script><!--!--><!--!--><!--!--><script src="/js/main.js" defer></script><script>$.getScript('/js/comment-issue-data.js',function(){loadIssueData('3f6047e330c296d2a866','54823ee12fe45614edd00349d0348ea68870d3a8','kurtknopfler','blog-comments',false);})</script><div class="searchbox"><div class="searchbox-container"><div class="searchbox-header"><div class="searchbox-input-container"><input class="searchbox-input" type="text" placeholder="Type something..."></div><a class="searchbox-close" href="javascript:;">×</a></div><div class="searchbox-body"></div></div></div><script src="/js/insight.js" defer></script><script>document.addEventListener('DOMContentLoaded', function () {
             loadInsight({"contentUrl":"/content.json"}, {"hint":"Type something...","untitled":"(Untitled)","posts":"Posts","pages":"Pages","categories":"Categories","tags":"Tags"});
         });</script><script src="https://cdn.jsdelivr.net/npm/pjax@0.2.8/pjax.js"></script><script type="text/javascript">var pjax = new Pjax({
             elements: "a",//代表点击链接就更新
@@ -88,7 +88,7 @@
         document.addEventListener('pjax:complete', function () {
             $(".section").css({opacity:1});
             if(true){
-                $.getScript('/js/comment-issue-data.js',function(){loadIssueData('3f6047e330c296d2a866','54823ee12fe45614edd00349d0348ea68870d3a8','kurtknopfler','blog-comment',false);});
+                $.getScript('/js/comment-issue-data.js',function(){loadIssueData('3f6047e330c296d2a866','54823ee12fe45614edd00349d0348ea68870d3a8','kurtknopfler','blog-comments',false);});
             }
             if(false){
                 loadMathJax();
